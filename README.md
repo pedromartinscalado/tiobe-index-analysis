@@ -7,28 +7,16 @@ Este repositório apresenta uma análise completa do TIOBE Programming Community
 - Fornecer código reprodutível e documentação clara para usuários e colaboradores.
 
 ## Estrutura de Pastas
-tiobe-index-analysis/
-├── data/
-│   ├── raw/                  # Dados originais (CSV mensais do TIOBE Index)
-│   └── processed/            # Dados limpos e transformados para análise
-├── notebooks/                # Jupyter notebooks com análises exploratórias
+tiobe-ratings/
 │   ├── tioberatings.ipynb     # Notebook principal de análise
-│   └── supplementary.ipynb    # Análises complementares
-├── scripts/                  # Scripts Python para coleta e processamento
-│   └── fetch_tiobe_data.py    # Baixa e salva CSVs do índice TIOBE
-├── reports/                  # Exportações HTML e PDF dos notebooks
-│   ├── tiobe_analysis.html
-│   └── tiobe_analysis.pdf
 ├── README.md                 # Documentação deste repositório
-├── requirements.txt          # Dependências do projeto
-└── .gitignore                # Arquivos e pastas ignorados pelo Git
+└── requirements.txt          # Dependências do projeto
 
 
 ## Como Reproduzir
-
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/tiobe-index-analysis.git
+   git clone https://github.com/pedromartinscalado/tiobe-index-analysis.git
    cd tiobe-index-analysis
    
 2. Crie e ative um ambiente virtual:
@@ -67,7 +55,6 @@ tiobe-index-analysis/
 
 10 - Heatmap: correlação e comparação de ratings entre os dois anos.
 
-
 6. Dependências Principais
 pandas
 matplotlib
@@ -75,5 +62,5 @@ seaborn
 plotly
 cufflinks
 
-
+```bash
 Nota: pip freeze > requirements.txt
